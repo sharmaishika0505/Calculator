@@ -1,0 +1,107 @@
+body {
+    background-color: #a2bbcf; /* light blue from your palette */
+    font-family: Arial, sans-serif;
+}
+
+#container{
+    border: 1px solid black;
+    height: 396px;
+    width: 405px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #142f44;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+#result{
+    border: 1px solid black;
+    height: 60px;
+    width: 290px;
+    text-align: left;
+    font-size: 24px;
+    margin: 5px;
+    background-color: #1d3849; 
+    color: #ffffff; 
+}
+.num{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 63px;
+    width: 80px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #205b7a; /* medium blue */
+    color: #ffffff;
+}
+.sign{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 63px;
+    width: 80px;
+    display: inline-block;
+    margin: 5px;
+     background-color: #1d3849; /* dark operator buttons */
+    color: #ffffff;
+}
+.clear{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 63px;
+    width: 80px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #000000; /* black clear button */
+    color: #ffffff;
+}
+
+.btn {
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+/* let btnNum=document.querySelectorAll(".num");
+let allBtns=document.querySelectorAll(".btn");
+let output=document.querySelector("#result");
+let currentValue="";
+
+//Addition in calculator
+btnNum.forEach(btn=>{
+    btn.addEventListener("click",()=>{
+        currentValue+=btn.value;
+        output.value=currentValue;
+    });
+});
+
+document.querySelector(".sign[value='+']").addEventListener("click",()=>{
+    currentValue+="+";
+    output.value=currentValue;
+});
+  
+document.querySelector(".clear").addEventListener("click",()=>{
+    currentValue+="";
+    output.value=currentValue;
+});
+
+document.querySelector(".sign[value='=']").addEventListener("click",()=>{
+    try{
+    let parts=currentValue.split("+").map(Number);
+    let sum =parts.reduce((a,b)=>a+b,0);
+
+    output.value=sum;
+    currentValue=sum.toString();
+    }
+    catch(e){
+        output.value="Error";
+        currentValue="";
+    }
+}); */
