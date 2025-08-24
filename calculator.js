@@ -2,7 +2,6 @@ let btnNum=document.querySelectorAll(".num");
 let output=document.querySelector("#result");
 let currentValue="";
 
-//Addition in calculator
 btnNum.forEach(btn=>{
     btn.addEventListener("click",()=>{
         currentValue+=btn.value;
